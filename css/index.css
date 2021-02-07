@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nunito:wght@400;600;700;800&display=swap');
+.info ul {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    flex-wrap: wrap;
+    font-family: 'Nunito', sans-serif;
+   }
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    flex-wrap: wrap;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+   }
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    float: right;
+   }
+
+main ul {
+font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+.table {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+h3 {
+font-family: 'Nunito', sans-serif;
+font-weight: bold;
+font-size: 2rem;
+}
+
+p {
+   font-family: 'Nunito', sans-serif;
+   font-weight: normal;
+   font-size: 1.5rem; 
+}
