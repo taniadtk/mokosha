@@ -25,7 +25,6 @@ header nav .navbar ul {
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: ivory;
     list-style-type: none;
     flex-direction: row;
     letter-spacing: 0.6px;
@@ -35,10 +34,15 @@ header nav .navbar ul {
 header nav {
     display: flex;
     justify-content: space-around;
+    background-color: #F9FAEC;
 }
 
 main .proposition ,text {
     background-image: url(/img/colored.jpg);
+}
+
+main .contacts {
+    background-color:  #F9FAEC;
 }
 
 h1 {
