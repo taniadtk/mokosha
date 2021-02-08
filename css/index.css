@@ -9,7 +9,7 @@
     justify-content: space-between;
     list-style-type: none;
     flex-wrap: wrap;
-    background-image: url(/img/colored.jpg);
+    background-image: url(..img/colored.jpg);
     color: white;
     font-weight: bold;
    }
@@ -38,7 +38,7 @@ header nav {
 }
 
 main .proposition ,text {
-    background-image: url(/img/colored.jpg);
+    background-image: url(../img/colored.jpg);
 }
 
 main .contacts {
@@ -46,30 +46,30 @@ main .contacts {
 }
 
 h1 {
-    font-family: 'Nunito', sans-serif;
+    
     font-weight: bold;
     font-size: 2.2rem;
 }
 .table {
-    font-family: 'Nunito', sans-serif;
+    
     font-weight: bold;
     font-size: 1.4rem;
 }
 
 h2 {
-    font-family: 'Nunito', sans-serif;
+    
     font-weight: bold;
     font-size: 3.5rem;
 }
 
 h3 {
-  font-family: 'Nunito', sans-serif;
+  
   font-weight: bold;
   font-size: 2rem;
 }
 
 p {
-   font-family: 'Nunito', sans-serif;
+   
    font-weight: normal;
    font-size: 1.5rem; 
 }
