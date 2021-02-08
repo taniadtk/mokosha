@@ -9,7 +9,7 @@
     justify-content: space-between;
     list-style-type: none;
     flex-wrap: wrap;
-    background-image: url(..img/colored.jpg);
+    background-image: url(../img/colored.jpg);
     color: white;
     font-weight: bold;
    }
@@ -38,7 +38,7 @@ header nav {
 }
 
 main .proposition ,text {
-    background-image: url(..img/colored.jpg);
+    background-image: url(../img/colored.jpg);
 }
 
 main .contacts {
