@@ -1,81 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
 
 :root {
     font-family: 'Nunito', sans-serif;
+    --main-color: #2b1911;
+    --accent-color: white;
+    scroll-behavior: smooth;
 }
-.info ul {
-    padding: 30px;
+
+header .info ul {
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
     flex-wrap: wrap;
+    list-style-type: none;
     background-image: url(../img/colored.jpg);
-    color: white;
-    font-weight: bold;
-   }
-
-header nav .logo img {
-    display: flex;
-    align-self: flex-start;
-    width: 300px;
-    height: 200px;
+    padding: 30px;
+    color: var(--accent-color);
+    font-size: 18px;
+    font-weight: 400;
+    background-size: cover;  
+    margin: 0px;
 }
-   
-header nav .navbar ul {
-    display:flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    list-style-type: none;
-    flex-direction: row;
-    letter-spacing: 0.6px;
-    font-size: 1.6rem;
+
+.selected {
+    color: #F9C504;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
 }
 
 header nav {
     display: flex;
-    justify-content: space-around;
-    background-color: #F9FAEC;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #F7F5EE;
+    padding: 25px;
 }
 
-main .proposition ,text {
+header nav .navbar ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+header nav .navbar ul a {
+    float: left;
+    margin: 0 20px;
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header nav .logo img {
+    width: 300px;
+    height: 200px;
+    
+}
+
+@media (min-width: 610px) {
+    header nav {
+        display: flex;
+    }
+}
+
+header nav .controls .button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: var(--main-color);
+  background-color: #F9C504;
+  border: none;
+  border-radius: 15px;
+}
+
+.controls .button:hover {background-color: #F9C504}
+
+.controls .button:active {
+  background-color: #F9C504;
+  transform: translateY(4px);
+}
+
+header nav .controls {
+    display: block;
+    justify-content: space-around;
+}
+ header nav .controls .fa {
+     display: block;
+ }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 80%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+ 
+main .proposition {
     background-image: url(../img/colored.jpg);
 }
-
-main .contacts {
-    background-color:  #F9FAEC;
-}
-
-h1 {
-    
-    font-weight: bold;
-    font-size: 2.2rem;
-}
-.table {
-    
-    font-weight: bold;
-    font-size: 1.4rem;
-}
-
-h2 {
-    
-    font-weight: bold;
-    font-size: 3.5rem;
-}
-
-h3 {
-  
-  font-weight: bold;
-  font-size: 2rem;
-}
-
-p {
-   
-   font-weight: normal;
-   font-size: 1.5rem; 
-}
-
-footer {
-    display:flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+main .raz{
+    padding: 1em;
+  font-size: 20px;
+    background-color: #F7F5EE;
+    background: rgba(247,245,238,0.5);
 }
