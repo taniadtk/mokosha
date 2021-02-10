@@ -68,7 +68,7 @@ header nav .logo img {
 header nav .controls .button {
     display: inline-block;
     padding: 15px 25px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -96,13 +96,13 @@ header nav .controls {
 }
 
 .fa {
-    padding: 20px;
+    padding: 13px;
     font-size: 1.5rem;
-    width: 15px;
+    width: 0.5em;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-    border-radius: 80%;
+    border-radius: 50%;
 }
 
 .fa:hover {
@@ -158,11 +158,40 @@ main ul {
 }
  
 h1 {
+    color: var(--main-color);
     font-size: 2rem;
     font-weight: 700;  
 }
 
 h2 {
-   font-size: 1.8rem;
-   font-weight: 700;  
+   color: var(--main-color);
+   font-size: 3rem;
+   font-weight: 800;  
 }
+
+.center{
+   text-align: center;
+   font-size: 3rem;
+   font-weight: 800; 
+   margin: 3em;
+}
+
+.news img {
+   padding: 0.7rem;
+}
+
+.why-us {
+   background-image: url(../img/background-flower.jpg);
+   box-shadow: inset 0 0 0 1000px rgba(242,237,232,0.5);
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.saparate {
+    text-align: center;
+    font-weight: 600;
+    line-height: 2em;
+}
+
