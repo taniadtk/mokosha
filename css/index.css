@@ -15,7 +15,7 @@ header .info ul {
     background-image: url(../img/colored.jpg);
     padding: 30px;
     color: var(--accent-color);
-    font-size: 18px;
+    font-size: 1.3em;
     font-weight: 400;
     background-size: cover;  
     margin: 0px;
@@ -25,7 +25,7 @@ header .info ul {
     color: #F9C504;
     font-weight: 600;
     font-style: bold;
-    font-size: 20px;
+    font-size: 1.4rem;
     text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
 }
 
@@ -35,14 +35,13 @@ header nav {
     justify-content: space-between;
     align-items: center; 
     background-color: #F7F5EE;
-    padding: 25px;
+    padding: 40px;
+
 }
 
 header nav .navbar ul {
     display: flex;
-    list-style-type: none;
-    font-size: 20px;
-    font-weight: 600;
+    list-style-type: none;   
 }
 
 header nav .navbar ul a {
@@ -50,8 +49,8 @@ header nav .navbar ul a {
     margin: 0 20px;
     text-decoration: none;
     color: var(--main-color);
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 1.8rem;
+    font-weight: 700;
 }
 
 header nav .logo img {
@@ -67,42 +66,43 @@ header nav .logo img {
 }
 
 header nav .controls .button {
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: var(--main-color);
-  background-color: #F9C504;
-  border: none;
-  border-radius: 15px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: var(--main-color);
+    background-color: #F9C504;
+    border: none;
+    border-radius: 15px;
 }
 
 .controls .button:hover {background-color: #F9C504}
 
 .controls .button:active {
-  background-color: #F9C504;
-  transform: translateY(4px);
+    background-color: #F9C504;
+    transform: translateY(4px);
 }
 
 header nav .controls {
     display: block;
     justify-content: space-around;
 }
+
  header nav .controls .fa {
      display: block;
- }
+}
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 15px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 80%;
+    padding: 20px;
+    font-size: 1.5rem;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 80%;
 }
 
 .fa:hover {
@@ -110,16 +110,59 @@ header nav .controls {
 }
 
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+    background: #3B5998;
+    color: white;
 }
  
 main .proposition {
     background-image: url(../img/colored.jpg);
+    background-size: cover;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    width: auto;
+    color: var(--main-color);
+    padding: 10em 5em 8em 5em;
 }
-main .raz{
+
+main .textcols-item {
+    display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+    height: 48%;
+    background-color: #F7F5EE;
+    margin: 17px;
+    padding: 1.8em;
+}
+
+.textcols-item + .textcols-item {
+    margin-left: 4%;
+    background: rgba(247,245,238,0.5);
+    margin: 17px;
+}
+
+main ul {
+   font-size: 1.8rem;
+   font-weight: 600;
+   line-height: 4em;   
+   text-decoration: overline;
+}
+
+.raz{
     padding: 1em;
-  font-size: 20px;
+    font-size: 2rem;
     background-color: #F7F5EE;
     background: rgba(247,245,238,0.5);
+    margin: 17px;
+}
+ 
+h1 {
+    font-size: 2rem;
+    font-weight: 700;  
+}
+
+h2 {
+   font-size: 1.8rem;
+   font-weight: 700;  
 }
