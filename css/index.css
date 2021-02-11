@@ -11,19 +11,24 @@ body {
     max-width: 1200px;
     margin: auto;
 }
+.subheader {
+    background-image: url(../img/colored.jpg);
+    background-size: 100%;
+}
 
-header .info ul {
+.info ul{
+    list-style-type: none;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    list-style-type: none;
-    background-image: url(../img/colored.jpg);
-    padding: 30px;
+    align-items: center;
+    padding: 0 60px 0 60px;
+    height: 60px;
     color: var(--accent-color);
     font-size: 1.3em;
-    font-weight: 400;
-    background-size: cover;  
-    margin: 0px;
+    font-weight: 400; 
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .selected {
@@ -40,8 +45,8 @@ header nav {
     justify-content: space-between;
     align-items: center; 
     background-color: #F7F5EE;
-    padding: 40px;
-
+    padding: 20px;
+    margin: 0;
 }
 
 header nav .navbar ul {
@@ -54,17 +59,17 @@ header nav .navbar ul a {
     margin: 0 20px;
     text-decoration: none;
     color: var(--main-color);
-    font-size: 1.8rem;
+    font-size: 1.3em;
     font-weight: 700;
 }
 
 header nav .logo img {
-    width: 300px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
     
 }
 
-@media (min-width: 610px) {
+@media (min-width: 767px) {
     header nav {
         display: flex;
     }
@@ -72,6 +77,7 @@ header nav .logo img {
 
 header nav .controls .button {
     display: inline-block;
+    flex-wrap: wrap;
     padding: 15px 25px;
     font-size: 1rem;
     cursor: pointer;
