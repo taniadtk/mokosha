@@ -116,26 +116,35 @@ header nav .controls .btn {
  
 main .proposition {
     background-image: url(../img/main-back.jpg);
-    
     background-size: cover;
     color: var(--main-color);
-    padding: 10em 5em 25em 5em;
+    padding: 10em 5em 35em 5em;
 }
 
 .textcols-left {
 	float: left;
     width: 48%;
     background: rgba(247,245,238,0.7);
-    padding: 0 5em 15em 0;
+    list-style-type: none;
+  font-size: 1.2em;
 }
 .textcols-right {
 	margin-left: 52%;
     background: rgba(247,245,238,0.7);
-    padding: 0 5em 15em 0;
+    padding: 0 5em 5em 0;
 }
 
+.news {
+    padding: 5em 5em 35em 5em;
+}
 
-/*main .textcols-item {
+.carousel-container {
+    max-width: 500px;
+    margin: auto;
+    height: 20px;
+}
+
+main .textcols-item {
     display: flex;
 	flex-direction: column;
 	flex-basis: 100%;
@@ -152,18 +161,21 @@ main .proposition {
     margin: 17px;
 }
 
-/*main ul {
-   font-size: 1.8rem;
-   font-weight: 600;
-   line-height: 4em;   
-}*/
-
 .crochet {
     display: flex;
     list-style-type: none;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: 0;
 }
 
-.img {
+.content {
+   color: var(--main-color);
+   font-size: 1em;
+   font-weight: 200;
+}
+
+.icon {
     margin: 20px;
 }
 
@@ -175,17 +187,10 @@ h1 {
 }
 
 h2 {
+    text-align: center;
    color: var(--main-color);
-   font-size: 3rem;
+   font-size: 1.3em;
    font-weight: 800;  
-}
-
-
-.center{
-   text-align: center;
-   font-size: 3rem;
-   font-weight: 800;
-   padding: 1em; 
 }
 
 .news img {
